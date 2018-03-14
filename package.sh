@@ -1,2 +1,2 @@
 #!/bin/sh
-dotnet pack -o _build --version-suffix $ENV_VAR_1
+dotnet pack -o _build --version-suffix "$GO_PIPELINE_LABEL"
