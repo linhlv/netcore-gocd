@@ -1,8 +1,1 @@
-IF [%1] == [] GOTO error
-
-@Echo Off
-dotnet pack -o _build --version-suffix %1
-EXIT /B
-
-:error
-Echo version required.
+dotnet pack -o _build --version-suffix $GO_PIPELINE_LALBEL
