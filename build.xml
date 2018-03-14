@@ -1,0 +1,7 @@
+<project name="test-build">
+  <property environment="env" />
+  <target name="dist">
+    <echo message="Building pipeline ${env.GO_PIPELINE_NAME}"
+          file="deploy-${env.GO_REVISION}.txt" />
+  </target>
+</project>
