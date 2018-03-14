@@ -1,1 +1,1 @@
-dotnet pack -o _build --version-suffix $GO_PIPELINE_LALBEL
+dotnet pack -o _build --version-suffix $1
